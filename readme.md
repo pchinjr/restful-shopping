@@ -28,3 +28,12 @@ POST /cart/:id add product to cart
 
 
 User sees a list of products they can buy. Clicking on the item adds it to a cart, a session is created so they can come back to the cart without logging in. In order to get to checkout, they will have to login. At checkout they can see the items in their cart.
+
+
+started with get all products page
+set up sandbox script to pre-populate some products
+create a new cart and get ID
+search for all carts
+get single cart by id
+
+[]put things in cart 

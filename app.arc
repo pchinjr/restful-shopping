@@ -3,7 +3,8 @@ begin-app
 
 @http
 get /
-post /cart/:id
+get /carts
+post /cart
 get /products
 get /cart/:id
 

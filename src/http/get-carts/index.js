@@ -2,8 +2,13 @@
 let data = require('@begin/data')
 
 exports.handler = async function http (req) {
-  let products = await data.get({table: "products"})
+
+  let carts = await data.get({
+    table: 'carts',
+  })
+
   return {
-    body: products ||`...getting products`
+    statusCode: 200,
+    body: JSON.stringify(carts) || `..getting all carts`
   }
 }
