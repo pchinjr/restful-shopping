@@ -20,3 +20,11 @@ Deploy your own clone of this app to Begin!
 - [Creating new routes](https://docs.begin.com/en/functions/creating-new-functions) - basics on expanding the capabilities of your app
 
 Head to [docs.begin.com](https://docs.begin.com/) to learn more!
+
+POST /cart/:id/checkout - authenticate checkout
+GET /products list products
+POST /products add new product { name: "pillow", price: "2500", id: "xxxxx"}
+POST /cart/:id add product to cart
+
+
+User sees a list of products they can buy. Clicking on the item adds it to a cart, a session is created so they can come back to the cart without logging in. In order to get to checkout, they will have to login. At checkout they can see the items in their cart.
