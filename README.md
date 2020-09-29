@@ -1,2 +1,0 @@
-# restful-shopping
-Begin app
