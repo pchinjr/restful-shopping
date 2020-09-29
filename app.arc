@@ -2,11 +2,15 @@
 begin-app
 
 @http
+
+
 get /
 get /carts
-post /cart
 get /products
 get /cart/:id
+
+post /cart
+post /cart/:id
 
 
 @tables
